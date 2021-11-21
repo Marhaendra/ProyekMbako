@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray"
+    tools:context=".Homepage">
+
+    <View
+        android:id="@+id/bg_green"
+        android:layout_width="412dp"
+        android:layout_height="350dp"
+        android:background="@drawable/bg_homepage"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textmbako"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/montserratbold"
+        android:text="@string/text_mbako"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserratbold"
+        android:text="@string/lokasipasar"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/textmbako"
+        tools:layout_editor_absoluteX="44dp"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/sp_pasar_home"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_round_gray"
+        android:entries="@array/array_pasar"
+        app:layout_constraintTop_toBottomOf="@+id/textmbako"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <View
+        android:id="@+id/view_pangan"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="156dp"
+        android:background="@drawable/rectangle_pangan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textmbako" />
+
+    <TextView
+        android:id="@+id/textpangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="172dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="@string/text_pilih_pangan"
+        android:textColor="@color/colorGreen"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textmbako" />
+
+    <Button
+        android:id="@+id/btn_beras"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/ricebowl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="@string/text_beras"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_telur"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/egg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="184dp"
+        android:layout_marginLeft="184dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="@string/text_telur"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_garam"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginLeft="276dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/salt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="284dp"
+        android:layout_marginLeft="284dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="@string/text_garam"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_minyak"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/oliveoil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="532dp"
+        android:fontFamily="@font/montserratregular"
+        android:gravity="center_horizontal"
+        android:text="@string/text_minyak_goreng"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_gula"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/sugarcube"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="532dp"
+        android:fontFamily="@font/montserratregular"
+        android:gravity="center_horizontal"
+        android:text="@string/text_gula"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_susu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginLeft="276dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/milk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="296dp"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="532dp"
+        android:fontFamily="@font/montserratregular"
+        android:gravity="center_horizontal"
+        android:text="@string/text_susu"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/setting_lokasi"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintTop_toBottomOf="@+id/view_pangan"
+        tools:layout_editor_absoluteX="30dp"
+        android:background="@drawable/bg_white"
+        android:text="Atur Lokasi"
+        android:textAllCaps="false"
+        android:fontFamily="@font/montserratregular"
+        android:textSize="14sp"
+        android:textColor="@color/colorGreen"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

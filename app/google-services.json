@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "925318544732",
+    "firebase_url": "https://mbako-6ae8e.firebaseio.com",
+    "project_id": "mbako-6ae8e",
+    "storage_bucket": "mbako-6ae8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925318544732:android:3a6c5d710967fa6c1f9599",
+        "android_client_info": {
+          "package_name": "android.example.proyekmbako"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925318544732-11ske062u6p1glb0nu947dksf2e3rsuk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.proyekmbako",
+            "certificate_hash": "d97d30028c07691d6b44097366ee2d93b6e76dfc"
+          }
+        },
+        {
+          "client_id": "925318544732-2adk4jv2ri8o0pe91bih970okmqc7e3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVNFlh0BZWalyuHpMFo3JuqbCyh2bmMNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925318544732-2adk4jv2ri8o0pe91bih970okmqc7e3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925318544732:android:406493eaf8aea3aa1f9599",
+        "android_client_info": {
+          "package_name": "com.company.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925318544732-2adk4jv2ri8o0pe91bih970okmqc7e3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVNFlh0BZWalyuHpMFo3JuqbCyh2bmMNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925318544732-2adk4jv2ri8o0pe91bih970okmqc7e3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925318544732:android:d0cdc7e20a2341031f9599",
+        "android_client_info": {
+          "package_name": "com.papb.mbakoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925318544732-1emuis5j9uhqppqm6ifltr9hqr7uurrb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.papb.mbakoapp",
+            "certificate_hash": "d97d30028c07691d6b44097366ee2d93b6e76dfc"
+          }
+        },
+        {
+          "client_id": "925318544732-2adk4jv2ri8o0pe91bih970okmqc7e3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVNFlh0BZWalyuHpMFo3JuqbCyh2bmMNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925318544732-2adk4jv2ri8o0pe91bih970okmqc7e3a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

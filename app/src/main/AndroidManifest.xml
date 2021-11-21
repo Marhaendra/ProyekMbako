@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.example.proyekmbako">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:label="Mbako"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <activity android:name=".MinyakActivity"></activity>
+        <activity android:name=".GulaActivity" />
+        <activity android:name=".SusuActivity" />
+        <activity android:name=".GaramActivity" />
+        <activity android:name=".TelurActivity" />
+        <activity android:name=".BerasActivity" />
+        <activity android:name=".Homepage" />
+        <activity android:name=".ChooseLoc" />
+        <activity android:name=".StartApp" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
